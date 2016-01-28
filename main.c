@@ -3,8 +3,8 @@
 #include <unistd.h>
 #include <assert.h>
 
-#include "GPIO/pwm.h"
-#include "GPIO/gpio.h"
+#include "gpio/pwm.h"
+#include "gpio/gpio.h"
 
 #define GPIO_PIN_SERVO          GPIO_PIN_14
 
