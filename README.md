@@ -4,6 +4,8 @@ Another little C program. This time to have a go at software pulse width modulat
 
 The code important to this little project is gpio/pwm.c, gpio/gpio.h and main.c.  This is where all the software pulse width modulation happens to move the servo arm.
 
+![servo](https://github.com/mse240966/raspberry-pi-c-servo/blob/master/docs/servo.jpg "Servo")
+
 ## Example
 
 ```bash
