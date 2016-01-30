@@ -6,6 +6,12 @@ The code important to this little project is gpio/pwm.c, gpio/gpio.h and main.c.
 
 ![servo](https://github.com/mse240966/raspberry-pi-c-servo/blob/master/docs/servo.jpg "Servo")
 
+## How to clone (with GPIO sub module)
+
+```bash
+git clone --recursive https://github.com/mse240966/raspberry-pi-c-servo.git
+```
+
 ## Example
 
 ```bash
