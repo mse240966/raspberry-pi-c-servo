@@ -55,21 +55,21 @@ int main()
         if (direction == 'N' || direction == 'n')
         {
             servoPwmParameters.dutyCycle = DUTY_CYCLE_NEUTRAL;
-            pwmPulseGpioPin(&servoPwmParameters);
+            gpioPwmPulsePin(&servoPwmParameters);
         }
 
         // Left
         if (direction == 'L' || direction == 'l')
         {
             servoPwmParameters.dutyCycle = DUTY_CYCLE_LEFT;
-            pwmPulseGpioPin(&servoPwmParameters);
+            gpioPwmPulsePin(&servoPwmParameters);
         }
 
         // Right
         if (direction == 'R' || direction == 'r')
         {
             servoPwmParameters.dutyCycle = DUTY_CYCLE_RIGHT;
-            pwmPulseGpioPin(&servoPwmParameters);
+            gpioPwmPulsePin(&servoPwmParameters);
         }
     }
 
