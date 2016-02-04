@@ -30,3 +30,6 @@ X
 ```
 
 ## Circuit
+
+![circuit](https://github.com/mse240966/raspberry-pi-c-servo/blob/master/docs/servoCircuit.png "Servo Circuit")
+
